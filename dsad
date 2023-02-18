@@ -1,0 +1,8 @@
+import math
+def f(x, y, z):
+    one = ((91 * z**3 + 60 * y**2 + 63 * x)**7)/2
+    two = 47*math.atan(97-y-z**3)-math.exp(x)**2
+    three = (90 * math.atan(72 * x**3)**2 + math.log(z+y**2+6, 2)**7)
+    return two
+
+print(f(0.37, 0.14, 1.0))
